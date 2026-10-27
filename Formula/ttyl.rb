@@ -1,25 +1,25 @@
 class Ttyl < Formula
   desc "A terminal client for the dev-null.sh social network"
   homepage "https://github.com/younes-io/ttyl"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/younes-io/ttyl/releases/download/v0.2.0/ttyl-aarch64-apple-darwin.tar.gz"
-      sha256 "a0ed01a9a2f556277856b3852a01fb56b1ef52e9115278efa565065970aa3060"
+      url "https://github.com/younes-io/ttyl/releases/download/v0.3.0/ttyl-aarch64-apple-darwin.tar.gz"
+      sha256 "299a493c22d588ad7788186011e5ff45e6d55f1bd17933941c414bc11be173c9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/younes-io/ttyl/releases/download/v0.2.0/ttyl-x86_64-apple-darwin.tar.gz"
-      sha256 "006d7ecf876847fc13ebf1d9c633501a6cfcd3d023195e298b04d0cc71c9f739"
+      url "https://github.com/younes-io/ttyl/releases/download/v0.3.0/ttyl-x86_64-apple-darwin.tar.gz"
+      sha256 "5c33c9d4423c3bea43ec26ed0ec4d4690755f66f0918b8d3b62d01d1fa68742f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/younes-io/ttyl/releases/download/v0.2.0/ttyl-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "00dd3d1d3cd78398afa72f60be67d7b6aafdcd3447d8600548b7a5c4a035abdd"
+      url "https://github.com/younes-io/ttyl/releases/download/v0.3.0/ttyl-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "652e6d80096b070662a9ad5a4a8507e0365de6ea195cd571f9fd6dda1ff69ae6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/younes-io/ttyl/releases/download/v0.2.0/ttyl-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0641733aa86b8b12bd5218b48c7a654c5b5d0975d61f583c1f587ab34da47368"
+      url "https://github.com/younes-io/ttyl/releases/download/v0.3.0/ttyl-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e3ee41bb852d6760b0053d1822f757d2ac1140a28843d506ca8bff52468cc898"
     end
   end
   license "Apache-2.0"
